@@ -1,0 +1,547 @@
+/*==========================================*/
+/*           Color Schemes
+/*==========================================*/
+/*==========================================*/
+/*            Global Elements
+/*==========================================*/
+a {
+  color: #ff6600;
+}
+a:hover {
+  color: #ff6600;
+}
+
+.section-title .title-icon-container .title-icon {
+  background: #ff6600;
+}
+
+.pagination-wrap .pagination li a {
+  color: #333;
+}
+.pagination-wrap .pagination li a.active, .pagination-wrap .pagination li a:hover {
+  border-color: #ff6600;
+  background: #ff6600;
+}
+
+.title h2 {
+  color: #ff6600;
+}
+
+.def-input:focus {
+  border: 1px solid #ff6600;
+}
+
+.def-form:hover, .def-form:focus {
+  border: 1px solid #ff6600;
+}
+
+.underlined-heading:after {
+  background: #ff6600;
+}
+
+.shop-item .image .love {
+  background: #ff6600;
+}
+
+.iconic-column .icon i {
+  color: #ff6600;
+}
+.iconic-column .icon:after {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*            Navbar Elements
+/*==========================================*/
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li:hover a, .navbar-inverse.scroll-fixed-navbar-fix .navbar-nav li:hover a {
+  color: #ff6600;
+}
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a, .navbar-inverse.scroll-fixed-navbar-fix .navbar-nav li.active a {
+  color: #ff6600;
+}
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li.active a:hover, .navbar-inverse.scroll-fixed-navbar-fix .navbar-nav li.active a:hover {
+  color: #ff6600;
+}
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li.dropdown .dropdown-menu li a:hover, .navbar-inverse.scroll-fixed-navbar-fix .navbar-nav li.dropdown .dropdown-menu li a:hover {
+  color: #ff6600;
+}
+.navbar-inverse .navbar-nav li a.cart .cart-icon .cart-number {
+  background: #ff6600;
+}
+.navbar-inverse .navbar-nav .dropdown.open a:hover, .navbar-inverse .navbar-nav .dropdown.open a:focus {
+  color: #ff6600;
+}
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu li a:hover {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*            Banner Elements
+/*==========================================*/
+.banner .banner-content .buttons .def-btn:hover {
+  color: #ff6600;
+  border-bottom: 1px solid #ff6600;
+}
+.banner.banner-breadcrumb .banner-content ul li a:hover {
+  color: #ff6600;
+}
+.banner.carousel .left .control .shape:hover i, .banner.carousel .right .control .shape:hover i {
+  color: #ff6600;
+}
+.banner.carousel .carousel-inner .item .overlay {
+  background: #ff6600;
+}
+.banner.carousel .carousel-inner .item .content .text-content .button-wrap .btn-outline:hover {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*              About Elements
+/*==========================================*/
+.about .content .icon i {
+  color: #ff6600;
+}
+.about .center .slick-prev, .about .center .slick-next {
+  border: 1px solid #ff6600;
+}
+.about .center .slick-prev:hover, .about .center .slick-next:hover {
+  background: #ff6600;
+}
+.about .center .slick-prev:hover:before, .about .center .slick-next:hover:before {
+  color: #ffffff;
+}
+.about .center .slick-prev:before {
+  color: #ff6600;
+}
+.about .center .slick-next:before {
+  color: #ff6600;
+}
+.about .more ul a:hover {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*             Testimonial Elements
+/*==========================================*/
+.testimonial .carousel .carousel-control .control-circle:hover {
+  border: 1px solid #ff6600;
+}
+.testimonial .carousel .carousel-control .control-circle:hover .fa {
+  color: #ff6600;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .owl-controls .owl-pagination .owl-page.active span {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*             Counter Elements
+/*==========================================*/
+.counter h3 {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*             Portfolio Elements
+/*==========================================*/
+.portfolio .portfoliofilter a.current .filterbutton {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+}
+.portfolio .portfoliofilter a:hover .filterbutton {
+  color: #ff6600;
+  border: 1px solid #ff6600;
+}
+.portfolio .portfoliocontent .content .overlay:hover {
+  background: rgba(255, 102, 0, 0.9);
+}
+
+/*==========================================*/
+/*             Why Me Elements
+/*==========================================*/
+.why-me .skills .skillbars .bar-container .meter {
+  background: #ff6600;
+}
+.why-me .skills .skillbars .bar-container .meter:after {
+  border-left: 20px solid #ff6600;
+}
+.why-me.why-me-alt .skillbar-wrap .icon i {
+  color: #ff6600;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text .bar .filled {
+  background: #ff6600;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text .bar .filled:after {
+  border-top: 5px solid #ff6600;
+}
+
+/*==========================================*/
+/*      Education & Employment Elements
+/*==========================================*/
+.timeline > li .timeline-icon {
+  background: #ff6600;
+}
+.timeline > li .timeline-label .place {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*        Pricing Elements
+/*==========================================*/
+.pricing .pricing-table .price {
+  background: #ff6600;
+}
+.pricing .pricing-table .list .def-btn {
+  border: 1px solid #ff6600;
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.pricing .pricing-table .list .def-btn:hover {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*            Journal Elements
+/*==========================================*/
+.journal .journal-content .media .quote {
+  background: #ff6600;
+}
+.journal .journal-content .detail {
+  border-top: 5px solid #ff6600;
+}
+.journal .journal-content .detail .category {
+  background: #ff6600;
+}
+.journal .journal-content .detail .title h3 {
+  color: #ff6600;
+}
+.journal .journal-content .detail .title h3:hover {
+  color: #cc5200;
+}
+.journal .journal-content .detail .info a:hover {
+  color: #ff6600;
+}
+.journal.journal-alt .news-column .image .content .def-btn:hover {
+  border-color: #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(1):after {
+  border-bottom: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(1):hover:after {
+  border-top: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(2):after {
+  border-bottom: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(2):hover:after {
+  border-top: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(3):after {
+  border-top: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(3):hover:after {
+  border-bottom: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(4):after {
+  border-top: 45px solid #ff6600;
+}
+.journal.journal-alt .news-column:nth-child(4):hover:after {
+  border-bottom: 45px solid #ff6600;
+}
+
+/*==========================================*/
+/*             Clients Element
+/*==========================================*/
+.clients.clients-alt {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*             Map Elements
+/*==========================================*/
+.map .map-title {
+  background: #ff6600;
+}
+.map.map-alt .footer-form .input-container .form-control:focus {
+  border-color: #ff6600;
+}
+.map.map-alt .footer-form .textarea-container textarea:focus {
+  border-color: #ff6600;
+}
+.map.map-alt .footer-form .button-container .def-btn {
+  color: #ff6600;
+  border: 1px solid #ff6600;
+}
+.map.map-alt .footer-form .button-container .def-btn:hover, .map.map-alt .footer-form .button-container .def-btn:focus {
+  background: #ff6600;
+  color: #ffffff;
+}
+
+/*==========================================*/
+/*             Contact Elements
+/*==========================================*/
+.contact #success_page {
+  border: 1px solid #ff6600;
+}
+.contact #success_page h3 {
+  color: #ff6600;
+}
+.contact .error_message {
+  border: 1px solid #ff6600;
+}
+.contact .footer-form .input-container .form-control:focus {
+  border: 1px solid #ff6600;
+}
+.contact .footer-form .textarea-container textarea:focus {
+  border: 1px solid #ff6600;
+}
+.contact .footer-form .button-container .def-btn {
+  border: 1px solid #ff6600;
+  color: #ff6600;
+}
+.contact .footer-form .button-container .def-btn:hover {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*            Footer Elements
+/*==========================================*/
+.footer {
+  border-top: 5px solid #ff6600;
+}
+.footer .top-text {
+  background: #ff6600;
+}
+.footer .links .social-icons .circle {
+  border: 1px solid #ff6600;
+}
+.footer .links .social-icons .circle .fa {
+  color: #ff6600;
+}
+.footer .links .social-icons .circle:hover {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*         Portfolio Single Elements
+/*==========================================*/
+.portfolio-single .carousel .carousel-control .control-button:hover {
+  background: #ff6600;
+}
+.portfolio-single .description .def-btn:hover {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*          Journal List Elements
+/*==========================================*/
+.journal-list .top-search .search-wrap input:focus {
+  border-color: #ff6600;
+}
+.journal-list .journal-content .detail {
+  border-top: 5px solid #ff6600;
+}
+.journal-list .journal-content .detail .category {
+  background: #ff6600;
+}
+.journal-list .journal-content .detail .title h3 {
+  color: #ff6600;
+}
+.journal-list .journal-content .detail .title h3:hover {
+  color: #cc5200;
+}
+.journal-list .journal-content .detail .info a:hover {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*          Journal Single Elements
+/*==========================================*/
+.journal-detail .post-single .respond .row .form-control:focus {
+  border: 1px solid #ff6600;
+}
+.journal-detail .post-single .respond .row textarea:focus {
+  border: 1px solid #ff6600;
+}
+.journal-detail .post-single .respond .row .def-btn:hover {
+  background: #ff6600;
+}
+
+.journal-sidebar .title .shape {
+  background: #ff6600;
+}
+.journal-sidebar .content ul li:hover {
+  border-bottom: 1px solid #ff6600;
+}
+.journal-sidebar .content ul li:hover a {
+  color: #ff6600;
+}
+.journal-sidebar .search-post .content .search-wrap input:focus {
+  border-color: #ff6600;
+}
+.journal-sidebar .recent-post .content ul li span {
+  color: #ff6600;
+}
+.journal-sidebar .post-tags .tag-label:hover {
+  background: #ff6600;
+  border: 2px solid #ff6600;
+}
+
+/*==========================================*/
+/*       Shop List Elements
+/*==========================================*/
+.featured-shop .shop-row .shop-most-description .def-btn:hover {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+.shop-item .image .overlay .links .circle:hover {
+  border: 1px solid #ff6600;
+  background: #ff6600;
+}
+.shop-item .image .overlay .links .circle:hover .fa {
+  color: #ffffff;
+}
+
+.shop-newsletter .left-content .title h3 {
+  border-top: 1px solid #ff6600;
+}
+
+.shop-sidebar-nav .title .shape {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+}
+.shop-sidebar-nav .content ul li:hover a {
+  color: #ff6600;
+}
+.shop-sidebar-nav .shop-search .content .input-group input:focus {
+  border-color: #ff6600;
+}
+.shop-sidebar-nav .shop-search .content .input-group .input-group-btn .btn {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+/*==========================================*/
+/*       Shop Single Elements
+/*==========================================*/
+.shop-single-showcase .add-to-cart:hover {
+  background: #ff6600;
+}
+
+.product-tab .nav li a:hover {
+  background: #ff6600;
+}
+.product-tab .product-detail .shop-respond .row input:focus, .product-tab .product-detail .shop-respond .row textarea:focus {
+  border: 1px solid #ff6600;
+}
+.product-tab .product-detail .shop-respond .row .button-outer .def-btn:hover {
+  background: #ff6600;
+  border: 1px solid #ff6600;
+}
+
+/*==========================================*/
+/*       Shop Cart Elements
+/*==========================================*/
+.shop-cart .cart-table tfoot .right-buttons a.continue-shopping {
+  background: #ff6600;
+}
+.shop-cart .cart-table tfoot .right-buttons a.continue-shopping:hover {
+  background: #cc5200;
+}
+.shop-cart .cart-coupon-total .cart-coupon .def-btn:hover {
+  background: #ff6600;
+}
+.shop-cart .cart-coupon-total .cart-total .proceed-checkout td a {
+  background: #ff6600;
+}
+.shop-cart .cart-coupon-total .cart-total .proceed-checkout td a:hover {
+  background: #cc5200;
+}
+
+/*==========================================*/
+/*       Shop Checkout Elements
+/*==========================================*/
+.checkout-form .title-icon {
+  background: #ff6600;
+}
+.checkout-form .right-form .cards li i:hover {
+  color: #ff6600;
+}
+
+/*==========================================*/
+/*       Shop Login & Register Elements
+/*==========================================*/
+.shop-login .title-icon, .shop-register .title-icon {
+  background: #ff6600;
+}
+.shop-login form .login-button:hover, .shop-login form .login-button:focus, .shop-register form .login-button:hover, .shop-register form .login-button:focus {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*       My Account Edit
+/*==========================================*/
+.my-account-edit .my-account-form .title-icon {
+  background: #ff6600;
+}
+.my-account-edit .my-account-form .right-form .cards li i:hover {
+  color: #ff6600;
+}
+.my-account-edit .my-account-form .save-button .def-btn:hover {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*       30 - Index Agency
+/*==========================================*/
+.agency-team .team-member .image .overlay .content-link .link-wrap a {
+  border: 1px solid #ff6600;
+}
+.agency-team .team-member .image .overlay .content-link .link-wrap a:hover {
+  background: #ff6600;
+}
+.agency-team .name:after {
+  background: #ff6600;
+}
+.agency-team .owl-controls .owl-pagination .owl-page.active span {
+  background: #ff6600;
+}
+
+.agency-about-image .right-content h3:after {
+  background: #ff6600;
+}
+
+/*==========================================*/
+/*            Index Portfolio
+/*==========================================*/
+.portfolio-item .portfolio-figure:hover figcaption {
+  background: rgba(255, 102, 0, 0.9);
+}
+
+/*==========================================*/
+/*          Responsive Settings
+/*==========================================*/
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-toggle {
+    border: 1px solid #ff6600;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  .navbar-inverse .navbar-toggle span.icon-bar {
+    background: #ff6600;
+  }
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background: #ff6600;
+  }
+  .navbar-inverse .navbar-collapse ul.navbar-nav li.active {
+    color: #ff6600;
+  }
+  .navbar-inverse .navbar-collapse ul.navbar-nav li a:hover {
+    background: #ff6600;
+  }
+  .navbar-inverse .navbar-collapse ul.navbar-nav li.dropdown a:hover, .navbar-inverse .navbar-collapse ul.navbar-nav li.dropdown a:focus, .navbar-inverse .navbar-collapse ul.navbar-nav li.dropdown a:active {
+    background: #ff6600;
+  }
+}
