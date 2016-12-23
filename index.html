@@ -12,35 +12,58 @@
 
     <!-- Stylesheets -->
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap -->
     <link href="assets/stylesheets-css/bootstrap/bootstrap.css" rel="stylesheet">
+
+    <!-- font-awesome.css -->
+    <link href="assets/stylesheets-css/fontawesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- pe-icon.css -->
+    <link href="assets/stylesheets-css/pe-icon/pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="assets/stylesheets-css/pe-icon/pe-icon-7-stroke/css/helper.css" rel="stylesheet">
 
     <!-- Animate.css -->
     <link href="assets/stylesheets-css/animate.css" rel="stylesheet">
 
+    <!-- Owl Carousel -->
+    <link href="assets/stylesheets-css/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/stylesheets-css/owl-carousel/owl.theme.css" rel="stylesheet">
+
+    <!-- Slick -->
+    <link href="assets/stylesheets-css/slick/slick.css" rel="stylesheet">
+    <link href="assets/stylesheets-css/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Smoothproducts -->
+    <link href="assets/stylesheets-css/smoothproducts/smoothproducts.css" rel="stylesheet">
+
     <!-- Main CSS -->
-    <link href="assets/stylesheets-css/style.css">
-    
+    <link href="assets/stylesheets-css/style.css" rel="stylesheet">
+    <!-- <link href="assets/stylesheets/css/color-scheme.css" rel="stylesheet"> -->
+
     <!-- Font style live -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 
+    <!-- Style Switcher -->
+    <link href="assets/stylesheets-css/switcher/switcher.css" rel="stylesheet">
+    <link href="assets/stylesheets-css/color/orange.css" id="switch_style" rel="stylesheet" />
+
 </head>
 
-<body>
-    
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="80" class="slideshowbody">
+
     <!-- PreLoader -->
     <div class="preloader animated fadeOut loaded">
         <div class="image-container">
             <div class="image"><img src="assets/images/preloader.gif" alt=""></div>
         </div>
     </div>
-    
+
     <!-- NAVBAR -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-            
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -48,21 +71,108 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                
+
             </div>
-            
+
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    
+
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#education">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    
+
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
+            <!--/.nav-collapse -->
         </div>
     </div>
+
+    <!-- Banner Section Begin -->
+    <section class="banner" id="home" style="background: url(assets/images/6g0kjwnbhxg-luis-llerena.jpg) center; background-size: cover;">
+
+        <div class="overlay"></div>
+
+        <div class="banner-content">
+            <div class="container">
+                <div class="col-md-12">
+
+                    <div class="subtitle">
+                        <p>I Am Sam Bonfanti</p>
+                    </div>
+
+                    <div class="title">
+                        <h1 id="typed"></h1>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#" class="def-btn">More About Me</a>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#" class="def-btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+
+            <div class="scroll-info">
+                <a href="#about">
+                    <div class="shape">
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+                </a>
+            </div><!--/.scroll-info -->
+        </div><!-- /.banner-content -->
+    </section><!-- /.banner -->
+    <!-- Banner Section End -->
+    
+    <!-- About Section Begin -->
+    <section class="about" id="about">
+      <div class="title section-title text-center">
+        <div class="title-icon-container">
+          <div class="title-icon"><i class="pe-7s-id pe-2x"></i></div>
+        </div>
+        <h1>Sam Bonfanti</h1>
+        <h2>Junior FullStack Web Developer</h2>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="center">
+              <div class="img-relative photo">
+                <img alt="My Photo" src="assets/images/newMe.png">
+              </div>
+              <div class="img-relative photo">
+                <img alt="My Photo" src="assets/images/meDucati.jpg">
+              </div>
+              <div class="img-relative photo">
+                <img alt="My Photo" src="assets/images/florida.jpg">
+              </div>
+              <div class="img-relative photo">
+                <img alt="My Photo" src="assets/images/snowboarding.jpg">
+              </div>
+            </div>
+
+            <div class="description">
+              <div class="text">
+                <p>I am a Junior full stack web developer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also, I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
+              </div>
+            </div>
+
+            <div class="more">
+              <ul>
+                <li><a href="#"><i class="pe-7s-cloud-download pe-2x pe-va"></i>  Download Resume</a></li> 
+                <li><a href="#"><i class="pe-7s-phone pe-2x pe-va"></i>Contact Me</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- /.features -->
+    <!-- About section End -->
 
 
     <!-- Bootstrap core JavaScript
@@ -71,9 +181,47 @@
 
     <!-- Jquery -->
     <script src="assets/javascript/jquery-3.1.1.js"></script>
-
-    <!-- Bootstap -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="assets/javascript/bootstrap.js"></script>
+    <script src="assets/javascript/typed.min.js"></script>
+    <script src="assets/javascript/jquery.parallax-1.1.3.js"></script>
+    <script src="assets/javascript/owl.carousel.js"></script>
+    <script src="assets/javascript/isotope.pkgd.min.js"></script>
+    <script src="assets/javascript/jquery.countTo.js"></script>
+    <script src="assets/javascript/wow.min.js"></script>
+    <script src="assets/javascript/slick.js"></script>
+    <script src="assets/javascript/jquery.form.js"></script>
+    <script src="assets/javascript/smoothproducts.min.js"></script>
+    <script src="assets/javascript/jquery.appear.min.js"></script>
+    <script src="assets/javascript/masonry.pkgd.min.js"></script>
+    <script src="assets/javascript/imagesLoaded.js"></script>
+    <script src="assets/javascript/custom-map.js"></script>
+    <script src="assets/javascript/custom.js"></script>
+
+    <!-- Style Switcher - Demo Only Begin -->
+    <div class="switcher-box">
+        <div class="hiddenbox"><i class="fa fa-gear"></i></div>
+        <div class="colorbox-container" style="display: none">
+            <div class="head"><i class="pe-7s-paint"></i></div>
+            <div class="content">
+                <a title="blue" href="javascript:void(0)">
+                    <div class="colorbox" id="blue"></div>
+                </a>
+                <a title="green" href="javascript:void(0)">
+                    <div class="colorbox" id="green"></div>
+                </a>
+                <a title="orange" href="javascript:void(0)">
+                    <div class="colorbox" id="orange"></div>
+                </a>
+                <a title="yellow" href="javascript:void(0)">
+                    <div class="colorbox" id="yellow"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascripts/switcher.js"></script>
+    <!-- Style Switcher - Demo Only End -->
 
 </body>
 
