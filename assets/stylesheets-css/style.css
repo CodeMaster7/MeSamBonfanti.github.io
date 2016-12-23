@@ -41,3 +41,92 @@
 /* 30 - Index Agency Elements
 /* 31 - Index App Settings
 /* 32 - Responsive Settings
+/*==========================================*/
+/*==========================================*/
+/*       01 - Global Elements
+/*==========================================*/
+html, body {
+  font-family: "Lato", sans-serif;
+  height: 100% !important;
+  font-weight: 300;
+  color: #333;
+  position: relative;
+}
+html h1, html h2, html h3, html h4, html h5, body h1, body h2, body h3, body h4, body h5 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #555;
+}
+
+.preloader .image-container {
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.preloader .image-container .image {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+.preloader.loaded {
+  display: none;
+}
+
+/*==========================================*/
+/*       02 - Navbar Elements
+/*==========================================*/
+.navbar-inverse {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: transparent;
+  margin-bottom: 0px;
+  z-index: 3;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 30px 20px;
+  font-family: "Lato", helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-nav li:hover a {
+  background-color: transparent;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav li.active a {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav li.active a:hover {
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav li.active a {
+  background: none;
+}
+.navbar-inverse .navbar-nav li.active a:focus, .navbar-inverse .navbar-nav li.active a:hover {
+  background: none;
+}
+
+.navbar-inverse.scroll-fixed-navbar, .navbar-inverse.scroll-fixed-navbar-fix {
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  color: #333333;
+}
+
+.navbar-inverse.scroll-fixed-navbar .navbar-nav li a, .navbar-inverse.scroll-fixed-navbar-fix .navbar-nav li a {
+  color: #333333;
+  padding: 30px 20px;
+}
+
