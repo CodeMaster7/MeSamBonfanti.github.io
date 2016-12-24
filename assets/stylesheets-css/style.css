@@ -1164,3 +1164,155 @@ a:hover {
   -ms-transform: rotate(45deg);
   background: #eee;
 }
+
+/*==========================================*/
+/*        09 - Why Me Elements
+/*==========================================*/
+.why-me {
+  padding: 80px 0px;
+}
+.why-me .text .title {
+  margin-bottom: 20px;
+}
+.why-me .text .title h1 {
+  margin-top: 0px;
+  font-weight: 400;
+}
+.why-me .text .tagline p {
+  font-size: 20px;
+  font-style: italic;
+}
+.why-me .text .description {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+.why-me .skills .title {
+  margin-bottom: 20px;
+}
+.why-me .skills .title h3 {
+  margin-top: 0px;
+}
+.why-me .skills .skillbars .bar-container {
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.why-me .skills .skillbars .bar-container p {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.why-me .skills .skillbars .bar-container .meter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+}
+.why-me .skills .skillbars .bar-container .meter:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  right: -20px;
+  top: 0px;
+}
+.why-me.why-me-alt {
+  display: table;
+  width: 100%;
+  position: relative;
+  padding: 0px;
+}
+.why-me.why-me-alt .skillbar-wrap {
+  display: table;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.why-me.why-me-alt .skillbar-wrap .icon {
+  width: 10%;
+  padding-right: 15px;
+}
+.why-me.why-me-alt .skillbar-wrap .icon i {
+  display: block;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text {
+  width: 80%;
+  text-transform: uppercase;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text .bar {
+  background: #222;
+  height: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text .bar .filled {
+  height: 5px;
+  position: relative;
+}
+.why-me.why-me-alt .skillbar-wrap .bar-and-text .bar .filled:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  right: -5px;
+  top: 0px;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+.why-me.why-me-alt .skillbar-wrap .number-wrap {
+  width: 10%;
+}
+.why-me.why-me-alt .skillbar-wrap .number-wrap .number {
+  background: #222;
+  padding: 5px 10px;
+  color: #eee;
+  font-size: 10px;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+.why-me.why-me-alt .skillbar-wrap .number-wrap .number:before {
+  content: "";
+  position: absolute;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid #222;
+  display: inline-block;
+  height: 5px;
+  vertical-align: top;
+  width: 5px;
+  left: -10px;
+}
+.why-me.why-me-alt .container-fluid {
+  padding: 0px;
+}
+.why-me.why-me-alt .left-content {
+  padding: 60px 40px 80px;
+  display: table-cell;
+  float: none;
+  position: relative;
+}
+.why-me.why-me-alt .right-content {
+  padding: 60px 40px 80px;
+  z-index: 2;
+  text-align: left;
+  display: table-cell;
+  float: none;
+}
+.why-me.why-me-alt .text-content {
+  margin-bottom: 30px;
+}
