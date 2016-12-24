@@ -7,7 +7,8 @@
     <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="new improved interactive portfolio">
     <meta name="author" content="Sam Bonfanti">
-    <!--    <link rel="icon" href="#">-->
+    <link rel="icon" href="assets/images/sb_icon.png">
+    
     <title>Sam Bonfanti</title>
 
     <!-- Stylesheets -->
@@ -89,7 +90,7 @@
     </div>
 
     <!-- Banner Section Begin -->
-    <section class="banner" id="home" style="background: url(assets/images/6g0kjwnbhxg-luis-llerena.jpg) center; background-size: cover;">
+    <section class="banner" id="home" data-background="assets/images/6g0kjwnbhxg-luis-llerena.jpg" style="background: url(assets/images/6g0kjwnbhxg-luis-llerena.jpg) center; background-size: cover; background-attachment: fixed;">
 
         <div class="overlay"></div>
 
@@ -157,7 +158,7 @@
 
             <div class="description">
               <div class="text">
-                <p>I am a Junior full stack web developer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also, I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
+                <p>I am a Junior full stack web developer with good knowledge of front-end techniques. I take pride in my work. I started in the web development field about a little over 1 year ago as I thought it would be a fun career. I have always been fascinated by computers and programming.I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also, I like working in a team, you'll learn faster and more. As the saying goes: 'two heads are better than one'.</p>
               </div>
             </div>
 
@@ -377,7 +378,78 @@
 
     </section><!--/.portfolio -->
     <!-- Portfolio Section End -->
+    
+    <!-- Testimonial Section Begin-->
+    <section class="testimonial text-center" id="testimonial" style="background: url(assets/images/guyCoding.jpg) center; background-size: cover; background-attachment: fixed;">
+        <div class="overlay"></div>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="photo">
+                            <img src="assets/images/pic-jeremy.jpg" alt="Testimonial">
+                        </div>
+                        <div class="text">
+                            " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et consectetur adipiscing elit. "
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator">
+                                <div class="shape"></div>
+                            </div>
+                        </div>
+                        <div class="name">
+                            <span class="textbold">Jeremy Robertson</span>, Director - Web at DevMountain
+                        </div>
+                    </div> <!--/.item -->
 
+                    <div class="item">
+                        <div class="photo">
+                            <img src="assets/images/pic-dustin.jpg" alt="Testimonial">
+                        </div>
+                        <div class="text">
+                            " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et consectetur adipiscing elit. "
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator">
+                                <div class="shape"></div>
+                            </div>
+                        </div>
+                        <div class="name">
+                            <span class="textbold">Dustin Myers</span>, Software Engineer and Dev Instructor
+                        </div>
+                    </div><!--/.item -->
+                    
+                    <div class="item">
+                        <div class="photo">
+                            <img src="assets/images/pic-jeff.jpg" alt="Testimonial">
+                        </div>
+                        <div class="text">
+                            " Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et. Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus suscipit mauris, sit amet suscipit nisi eleifend et consectetur adipiscing elit. "
+                        </div>
+                        <div class="separator-container">
+                            <div class="separator">
+                                <div class="shape"></div>
+                            </div>
+                        </div>
+                        <div class="name">
+                            <span class="textbold">Jeff Chapman</span>, Employer Relations at DevMountain
+                        </div>
+                    </div><!--/.item -->
+                </div><!--/.carousel-inner -->
+            </div><!--/.container -->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#testimonial-carousel" role="button" data-slide="prev" data-wow-delay="1s">
+                <div class="control-circle left"><i class="fa fa-angle-left"></i></div>
+            </a>
+            <a class="right carousel-control" href="#testimonial-carousel" role="button" data-slide="next" data-wow-delay="1s">
+                <div class="control-circle right"><i class="fa fa-angle-right"></i></div>
+            </a>
+        </div>
+        <!--/.testimonial-carousel -->
+    </section>
+    <!--/.testimonial -->
+    <!-- Testimonial Section End-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
