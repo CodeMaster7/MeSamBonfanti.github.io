@@ -10,8 +10,8 @@
     	$(".colorbox").click(function(){
     		var id = $(this).attr("id");
     		
-        $("#switch_style").attr("href", "assets/stylesheets/css/colors/" + id + ".css");        
-    		$("#switch_style_demo").attr("href", "assets/stylesheets/css/index-demo/color-scheme/" + id + ".css");    		
+        $("#switch_style").attr("href", "assets/stylesheets-css/color/" + id + ".css");        
+    		$("#switch_style_demo").attr("href", "assets/stylesheets-css/color-scheme/" + id + ".css");    		
     	});
     },
   };
