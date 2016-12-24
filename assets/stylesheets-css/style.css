@@ -14,33 +14,14 @@
 /* 02 - Navbar Elements
 /* 03 - Banner Elements
 /* 04 - About Elements
-/* 06 - Testimonial Elements
-/* 07 - Counter Elements
-/* 08 - Portfolio Elements
-/* 09 - Why Me Elements
-/* 10 - Education & Employment Elements
-/* 11 - Pricing Elements
-/* 12 - Twitter Feed Elements
-/* 13 - Journal Elements
-/* 14 - Clients Elements 
-/* 15 - Map Elements
-/* 16 - Contact Elements
-/* 17 - Footer Elements
-/* 18 - Portfolio List Elements
-/* 19 - Portfolio Single Elements
-/* 20 - Journal List Elements
-/* 21 - Journal Single Elements
-/* 22 - Shop List Elements
-/* 23 - Shop Archive Elements
-/* 24 - Shop Single Elements
-/* 25 - Shop Cart Elements
-/* 26 - Shop Checkout Elements
-/* 27 - Shop Login & Register Elements
-/* 28 - My Account Elements
-/* 29 - My Account Edit Elements
-/* 30 - Index Agency Elements
-/* 31 - Index App Settings
-/* 32 - Responsive Settings
+/* 05 - Counter Elements
+/* 06 - Portfolio Elements
+/* 07 - Testimonials Elements
+/* 08 - Why Me Elements
+/* 9 - Education & Employment Elements
+/* 10 - Map Elements
+/* 11 - Footer Elements
+/* 12 - Responsive Settings
 /*==========================================*/
 /*==========================================*/
 /*       01 - Global Elements
@@ -686,7 +667,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*        07 - Counter Elements
+/*        05 - Counter Elements
 /*==========================================*/
 .counter {
   background-size: cover;
@@ -744,7 +725,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*        08 - Portfolio Elements
+/*        06 - Portfolio Elements
 /*==========================================*/
 .portfolio {
   padding: 80px 0px 60px;
@@ -984,7 +965,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*        06 - Testimonial Elements
+/*        07 - Testimonial Elements
 /*==========================================*/
 .testimonial {
   background-size: cover;
@@ -1318,7 +1299,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*    10 - Education & Employment Elements
+/*    9 - Education & Employment Elements
 /*==========================================*/
 .education .title, .employment .title {
   padding: 40px 0px;
@@ -1441,7 +1422,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*        15 - Map Elements
+/*        10 - Map Elements
 /*==========================================*/
 .map .map-title {
   padding: 40px 0px;
@@ -1528,7 +1509,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*       17 - Footer Elements
+/*       11 - Footer Elements
 /*==========================================*/
 .footer {
   text-align: center;
@@ -1595,7 +1576,7 @@ a:hover {
 }
 
 /*==========================================*/
-/*       32 - Responsive Settings
+/*       12 - Responsive Settings
 /*==========================================*/
 @media (max-width: 1200px) {
   .about .photo.slick-current img {
