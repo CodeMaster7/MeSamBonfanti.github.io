@@ -1,15 +1,15 @@
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
 
-function init() {
+function initMap() {
     // The latitude and longitude to center the map (always required)
-    var myLatlng = new google.maps.LatLng(40.6700, -73.9400);
+    var myLatlng = new google.maps.LatLng(32.7767, -96.7970);
     
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 12,
         scrollwheel: false,
         draggable: false,
         zoomControl: false,
