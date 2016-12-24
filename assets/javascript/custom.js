@@ -83,6 +83,17 @@ $(document).ready(function() {
       }, 1000);
     };
   });
+    
+  // -------------- Scroll to content animation -------------- 
+
+  $(".more a[href^='#']").on('click', function(e) {
+    if (!$(this).hasClass("dropdown-toggle")) {
+      e.preventDefault();
+      $('html, body').animate({
+          scrollTop: $(this.hash).offset().top-60
+      }, 1000);
+    };
+  });
 
   // -------------- Jquery WOW (reveal content when scroll) -------------- 
 
