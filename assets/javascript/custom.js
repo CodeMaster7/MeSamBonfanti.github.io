@@ -9,7 +9,7 @@ $(document).ready(function() {
   }, 1000);
 
   $("#typed").typed({
-    strings: ["Passionate Junior Web Developer", "keep calm i am fullstack", "WORK-A-HOLIC"],
+    strings: ["Passionate Web Developer", "keep calm i am fullstack", "WORK-A-HOLIC"],
     typeSpeed: 30,
     startDelay: 0,
     backSpeed: 30,
