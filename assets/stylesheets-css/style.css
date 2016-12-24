@@ -982,3 +982,185 @@ a:hover {
   text-shadow: none;
   font-family: "lato", sans-serif;
 }
+
+/*==========================================*/
+/*        06 - Testimonial Elements
+/*==========================================*/
+.testimonial {
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+}
+.testimonial .overlay {
+  width: 100%;
+  height: 100%;
+  background: url("../../images/noise2.png");
+  position: absolute;
+}
+.testimonial .carousel {
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 2;
+}
+.testimonial .carousel .item {
+  text-align: center;
+  margin: 0 auto;
+}
+.testimonial .carousel .item .photo {
+  margin-bottom: 15px;
+}
+.testimonial .carousel .item .photo img {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.testimonial .carousel .item .separator-container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.testimonial .carousel .item .separator-container .separator {
+  font-weight: 400;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+.testimonial .carousel .item .separator-container .separator .shape {
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  background: #ffffff;
+}
+.testimonial .carousel .item .separator-container .separator:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #ddd;
+  width: 50px;
+  left: -60px;
+  top: 50%;
+}
+.testimonial .carousel .item .separator-container .separator:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #ddd;
+  width: 50px;
+  right: -60px;
+  top: 50%;
+}
+.testimonial .carousel .item .text {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal;
+}
+.testimonial .carousel .item .name {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+}
+.testimonial .carousel .item .name .textbold {
+  font-weight: 700;
+}
+.testimonial .carousel .carousel-control {
+  background-image: none;
+  opacity: 1;
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+}
+.testimonial .carousel .carousel-control .control-circle {
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  position: absolute;
+  top: 45%;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+.testimonial .carousel .carousel-control .control-circle.left {
+  left: 30%;
+}
+.testimonial .carousel .carousel-control .control-circle.right {
+  right: 30%;
+}
+.testimonial .carousel .carousel-control .control-circle .fa {
+  font-size: 25px;
+  line-height: 40px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+.testimonial.testimonial-alt .overlay {
+  opacity: 0.7;
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+}
+.testimonial.testimonial-alt .carousel {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .item .text {
+  font-size: 14px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  font-weight: 300;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .item .text:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid rgba(0, 0, 0, 0.8);
+  bottom: 0px;
+  right: 20px;
+  margin-bottom: -20px;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .item .name-position {
+  text-align: right;
+  padding-top: 40px;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .item .image {
+  width: 100px;
+  padding-top: 30px;
+  padding-right: 0px;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .item .image img {
+  width: 100%;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .owl-controls {
+  padding-top: 30px;
+}
+.testimonial.testimonial-alt .testimonial-alt-content .owl-controls .owl-pagination .owl-page span {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  background: #eee;
+}
