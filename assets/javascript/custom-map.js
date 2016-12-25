@@ -1,5 +1,5 @@
 // When the window has finished loading create our google map below
-//google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
 
 function initMap() {
     // The latitude and longitude to center the map (always required)
