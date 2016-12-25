@@ -484,6 +484,7 @@ a:hover {
   animation-iteration-count: infinite;
   animation-play-state: running;
 }
+
 @-webkit-keyframes drop {
   0% {
     top: 5px;
@@ -1573,6 +1574,58 @@ a:hover {
 }
 .footer .links .social-icons .circle:hover .fa {
   color: #ffffff;
+}
+
+.footer .scroll-info {
+  text-align: center;
+  width: 100%;
+}
+
+.footer .scroll-info .shape {
+  display: inline-block;
+  border: 1px solid #ffffff;
+  width: 35px;
+  height: 35px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  float: right;
+  margin-right: 3%;
+}
+
+.footer .scroll-info .shape i {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  padding: 6px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer .scroll-info .shape .fa-angle-up {
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 /*==========================================*/
