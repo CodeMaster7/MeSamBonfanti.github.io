@@ -33,6 +33,7 @@ body {
   font-weight: 300;
   color: #333333;
   position: relative;
+  font-size: 17px;
 }
 html h1,
 body h1,
@@ -1302,6 +1303,29 @@ a:hover {
 }
 .why-me.why-me-alt .text-content {
   margin-bottom: 30px;
+}
+
+.images {
+  height: 100px;
+}
+
+.react {
+  height: 150px;
+  margin-right: -40px;
+}
+
+.js {
+  margin-left: 55px;
+}
+
+.node {
+  margin-left: 30px;
+}
+
+.mongo {
+  margin-top: 15px;
+  margin-left: 40px;
+  height: 150px;
 }
 
 /*==========================================*/
