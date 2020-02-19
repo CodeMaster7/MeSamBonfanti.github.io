@@ -282,6 +282,12 @@ a:hover {
     color: #333333;
 }
 
+div.content.slideanim.image-1.slide1 {
+    width: 250px;
+    min-height: 250px;
+    margin-left: -100%;
+}
+
 .preloader {
     background: #fff;
     z-index: 9999;
@@ -2573,7 +2579,10 @@ section.testimonial .item a {
 }
 
 section.portfolio .image-1 {
-    width: 500px;
+    width: 250px;
+    /* width: 500px; */
+    max-height: 250px;
+    margin-left: -100%;
     position: relative;
     left: -78%;
     margin-top: -2%;
@@ -2581,15 +2590,15 @@ section.portfolio .image-1 {
 
 section.portfolio .image-2 {
     position: relative;
-    left: -40%;
+    left: 30%;
 }
 
-section.portfolio .image-3 {
+/* section.portfolio .image-3 {
     position: relative;
     left: 49%;
     width: 500px;
     margin-top: -42%;
-}
+} */
 
 section.portfolio .image-4 {
     width: 500px;
