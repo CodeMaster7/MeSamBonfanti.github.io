@@ -101,6 +101,7 @@ a:hover {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 25px;
+    transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -272,6 +273,7 @@ a:hover {
     color: #888;
     position: relative;
     font-size: 14px;
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -295,6 +297,7 @@ div.content.slideanim.image-1.slide1 {
     display: block;
     width: 100%;
     height: 100%;
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -333,6 +336,7 @@ div.content.slideanim.image-1.slide1 {
     margin: 0px 4px 5px;
     border: 2px solid #eee;
     color: #333333;
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -523,6 +527,7 @@ div.content.slideanim.image-1.slide1 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -625,6 +630,7 @@ div.content.slideanim.image-1.slide1 {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -732,7 +738,7 @@ div.content.slideanim.image-1.slide1 {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    float: left;
+    text-align: center;
     margin-right: 10px;
     line-height: 35px;
 }
@@ -754,6 +760,7 @@ div.content.slideanim.image-1.slide1 {
 
 .about .more ul a {
     color: #333333;
+    transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -981,6 +988,7 @@ div.content.slideanim.image-1.slide1 {
     z-index: 2;
     width: 100%;
     height: 100%;
+    transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -1824,6 +1832,7 @@ section.why-me img.js {
     height: 35px;
     display: inline-block;
     margin: 0px 7.5px;
+    transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -1856,7 +1865,7 @@ section.why-me img.js {
 }
 
 .footer .scroll-info .shape {
-    display: inline-block;
+    display: block;
     border: 1px solid #ffffff;
     width: 35px;
     height: 35px;
@@ -1865,6 +1874,7 @@ section.why-me img.js {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -2422,36 +2432,43 @@ section.why-me img.js {
     }
 
     section.portfolio .portfoliocontent .item {
-        left: -22%;
+        left: 27%;
         width: 0%;
     }
 
     section.portfolio .slide1 {
         left: -7%;
+        margin-left: 0 !important;
+        width: 95%;
     }
 
     section.portfolio .image-2 {
         left: -7% !important;
-        order: 2 !important;
+        order: -3% !important;
+        width: 95%;
+        margin-top: 90%;
     }
 
     section.portfolio .image-3 {
         order: 1;
         width: unset !important;
         margin-top: 5% !important;
-        left: -7% !important;
+        left: 3% !important;
+        top: 30%;
     }
 
     section.portfolio .text-3 {
         order: 4 !important;
-        left: -7%;
+        width: 95%;
+        position: relative;
+        left: -6%;
     }
 
     section.portfolio .image-4 {
         position: relative;
         margin-top: 0%;
         width: unset !important;
-        left: -8% !important;
+        left: 3% !important;
         order: 3 !important;
     }
 
