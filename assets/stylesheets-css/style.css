@@ -2432,43 +2432,43 @@ section.why-me img.js {
     }
 
     section.portfolio .portfoliocontent .item {
-        left: 27%;
-        width: 0%;
+        left: 58%;
+        width: 95% !important;
     }
 
     section.portfolio .slide1 {
         left: -7%;
         margin-left: 0 !important;
-        width: 95%;
+        width: 95% !important;
     }
 
     section.portfolio .image-2 {
         left: -7% !important;
-        order: -3% !important;
+        order: 3 !important;
         width: 95%;
-        margin-top: 90%;
+        margin-top: 90% !important;
     }
 
     section.portfolio .image-3 {
         order: 1;
         width: unset !important;
         margin-top: 5% !important;
-        left: 3% !important;
-        top: 30%;
+        left: -3% !important;
+        top: 30% !important;
     }
 
     section.portfolio .text-3 {
         order: 4 !important;
         width: 95%;
         position: relative;
-        left: -6%;
+        left: -5% !important;
     }
 
     section.portfolio .image-4 {
         position: relative;
         margin-top: 0%;
         width: unset !important;
-        left: 3% !important;
+        left: -4% !important;
         order: 3 !important;
     }
 
