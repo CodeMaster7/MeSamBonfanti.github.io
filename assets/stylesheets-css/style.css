@@ -2657,3 +2657,15 @@ section.footer .btn-contact {
 section.footer .btn-contact:hover {
     color: #ffffff;
 }
+
+.project-title2 {
+    text-align: center;
+    font-size: 1.5em !important;
+}
+
+/* section.portfolio .portfoliocontent2 {
+    left: 0;
+    display: flex;
+    left: 58%;
+    width: 95% !important;
+} */
